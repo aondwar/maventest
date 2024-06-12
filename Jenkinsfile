@@ -17,7 +17,7 @@ pipeline {
         stage ('Build') {
             steps {
                 sh 'mvn clean test' 
-                echo "success"
+                echo "success1"
             }
             post {
                 success {
